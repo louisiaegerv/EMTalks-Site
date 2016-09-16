@@ -12,3 +12,5 @@ The site was used to:
 * View info about the speakers
 * Watch last years TEDxEM event videos
 * Get more information about the event
+
+![Alt text](https://raw.githubusercontent.com/louisiaegerv/EMTalks-Site/master/img/emtalksSite.jpg "EMTalks Site")
