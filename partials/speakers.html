@@ -1,0 +1,28 @@
+<div class="speakerContainer">
+	<br/>
+	<h1 class = "meet">Meet the speakers</h1>
+	<div class="row">
+		<div ng-repeat="Speaker in Speakers" class="col l4 m6 s12">
+				<img id="myPic" ng-click="openModal(Speaker)" src="{{ Speaker.Picture }}">
+			<h4>{{ Speaker.Name }}</h4>  
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="theModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-mid">
+        <img id="theModalPic" src="">
+        <h4 class="modal-speakerName" id="theModalTitle"></h4>
+        <p class="modal-speakerBio" id="theModalBody"></p>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+

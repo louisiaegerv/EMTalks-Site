@@ -1,0 +1,75 @@
+
+<div class="nominateContainer">
+    <div class="responsive-text">
+        <div class="row">
+            <h1>Speaker nomination</h1>
+			<div class="col s12">
+                    <h4>Nomination deadline: June 30, 2016</h4>
+            </div>
+			<div class="col s12">
+                <p>Nominate yourself, someone you know, or even someone you don't know that can inspire others 
+                    to feel <span class="xregular">UNTITLED</span>.</p>
+                <br/>
+            </div>
+			<div class="col s12">
+                <p>Fill out the following to nominate an <span class="xregular">UNTITLED</span> speaker!</p>
+            </div>
+        </div>
+        <form class="normal ng-pristine ng-valid" ng-submit="register()">
+            <!-- Name/LAN ID -->
+            <div class="row">
+                <div class="col s12 m12">
+                    <label for="speakerName">Speaker name</label>
+                    <input type="text" class="icon-prefix" placeholder="Name" id="speakerName" ng-model="Name" required />
+                    <i class="mdi-social-person prefix focusInput"></i>
+                    
+                </div>
+            </div>
+
+            <!-- email -->
+            <div class="row" id="email">    
+                <div class="col s12 m12">
+                    <label for="customerName">Speaker email</label>
+                    <input type="email" class="icon-prefix" placeholder="Email" id="email" ng-model="Email">
+                    <i class="mdi-communication-email prefix focusInput"></i>
+                    
+                </div>
+            </div>
+
+            <!--Business Line -->
+            <div id='email' class="row">
+                <div class="col s12 m12">
+                    <label for="BusinessLine">Business line</label>
+                    <input type="text" class="icon-prefix" id="Group" placeholder="What organization do they work in?" ng-model="BusinessLine" />
+                    <i class="mdi-social-people prefix focusInput"></i>
+                </div>
+            </div>
+
+            <!-- This Speaker is -->
+            <div class="row" id="speakerTypeRow">
+                <div class="col m12">
+                    <label for="speakerType">This speaker is</label>
+                    <input type="text" id="Group" placeholder="Funny, Inspiring, Thoughtful, etc." ng-model="SpeakerType" />
+                    
+                    <!--<span class="nullable">
+                        <select id="speakerType" ng-model="SpeakerType">
+                            <option value="" disabled selected hidden>Select a characteristic</option>
+                            <option ng-repeat="type in SpeakerTypes" value="{{type}}">{{type}}</option>
+                        </select>
+                    </span>-->
+            
+            </div>
+
+            <div class="row" id="speakerDetailsRow">
+                <div class="col s12">
+                    <label for="exampleMessage">Why this person?</label>
+                    <textarea ng-model="Description" placeholder="Tell us about the speaker – Why are you recommending them? What could they talk about? How has this person impacted you?" id="exampleMessage"></textarea>
+                </div>
+            </div>
+            
+            <div class="row" id="submitBtnRow">
+                <input type="submit" class="btn-primary pull-right" value="Submit" id="submitButton"/>
+            </div>
+        </form>
+    </div>
+</div>

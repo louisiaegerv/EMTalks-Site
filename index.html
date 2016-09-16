@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="app-emtalks" ng-cloak>
+
+  <head>
+    <title>EMtalks 2016</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="img/favicons/megaphone.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link link type="text/css"  rel="stylesheet" href="css/elements.css" />
+    <link rel="stylesheet" href="css/custom.css" />  
+  </head>
+
+  <body>
+    <div class="body-container"> 
+
+      <!-- Red Header Bar -->
+      <nav id='header' class="simple group">
+        <div class="container">
+          <div class="logo"><a ng-href="#/home">EM<span>talks</span></a></div>
+          <ul>
+            <li><a ng-href="#/speakers">Speakers</a></li>
+            <li><a ng-href="#/details">Details</a></li>
+            <li class="last-top-utility"><a ng-href="#/savethedate">Attend</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <!-- Site Content -->
+      <div class="middle-content">
+        <!-- View-->
+        <div class='view' ng-view autoscroll="true"></div>
+      </div>
+      
+
+      <footer class="slim EM-grey_bg dark">
+        <div class="inner group">
+          <div class="logo">
+            <a href="http://ishareteam4.na.xom.com/sites/ONE_EMIT/Pages/Home.aspx">ONE EMIT</a>
+          </div>
+          <ul>
+            <li><a ng-href="#/team">EMtalks Team</a></li>
+          </ul>
+        </div>
+      </footer>
+
+    <!-- End of body-container -->
+    </div>
+    <!-- load angular -->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vivus.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/angular/angular.min.js"></script>
+    <script src="js/angular/angular-animate.min.js"></script>
+    <script src="js/angular/angular-route.min.js"></script>
+    <script src="js/angular/controller.js"></script>
+    <script src="js/angular/app.js"></script>
+  </body>
+  
+
+</html>
