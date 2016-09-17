@@ -13,4 +13,7 @@ The site was used to:
 * Watch last years TEDxEM event videos
 * Get more information about the event
 
-![Alt text](https://raw.githubusercontent.com/louisiaegerv/EMTalks-Site/master/img/emtalksSite.jpg "EMTalks Site")
+======
+[Click here](https://louisiaegerv.github.io/EMTalks-Site/) to view a demo of the site.
+------
+[<img src="https://raw.githubusercontent.com/louisiaegerv/EMTalks-Site/master/img/emtalksSite.jpg">](https://louisiaegerv.github.io/EMTalks-Site/)
