@@ -1,4 +1,4 @@
-/*--- Font Styling ---*/
+2/*--- Font Styling ---*/
 @font-face {
   font-family: 'X-Regular';
   src: url('../inc/fonts/X-Regular.otf');
@@ -22,9 +22,9 @@ html,body {
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0 0 20px black;
     padding:0;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
     background: none; }
     #header {
       background-color: #D42E12;
@@ -116,7 +116,7 @@ html,body {
         color: black; }
       .thirdContainer img {
         width  : 60%;
-        max-width: 200px;
+        max-width: 280px;
         transition: all .2s; }
       .thirdContainer img:hover {
         width: 63%; }
